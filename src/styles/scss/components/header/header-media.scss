@@ -1,0 +1,29 @@
+.header {
+  @media (max-width: 767px) {
+    &__top {
+      top: -40px;
+    }
+  }
+
+  @media (max-width: 575px) {
+    padding-top: 60px;
+
+    &__address, &__socials  {
+      display: none!important;
+    }
+
+    &__dot-after:after {
+      display: none;
+    }
+
+    &__top {
+      top: -60px;
+      left: 0;
+      padding: 10px 15px;
+      background: rgba(255, 255, 255, 0.44);
+      justify-content: space-between!important;
+    }
+  }
+
+
+}

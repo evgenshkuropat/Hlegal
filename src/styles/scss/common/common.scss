@@ -1,0 +1,7 @@
+@use "sass:map";
+
+body {
+  font-family: $main-font-family;
+  font-size: map-get($font-sizes, 'md');
+  color: map-get($colors, 'main-font-color');
+}
